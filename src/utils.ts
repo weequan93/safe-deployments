@@ -87,6 +87,7 @@ function findDeployment(
 ): SingletonDeployment | SingletonDeploymentV2 | undefined {
   const { version, released, network } = { ...DEFAULT_FILTER, ...criteria };
 
+  console.log('findDeployment', version,released, network )
   const deploymentJson = deployments.find((deployment) => {
     if (version && !semverSatisfies(deployment.version, version)) return false;
     if (typeof released === 'boolean' && deployment.released !== released) return false;

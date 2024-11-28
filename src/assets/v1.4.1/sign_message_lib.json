@@ -4,7 +4,7 @@
   "version": "1.4.1",
   "deployments": {
     "canonical": {
-      "address": "0xd53cd0aB83D845Ac265BE939c57F53AD838012c9",
+      "address": "0xA65387F16B013cf2Af4605Ad8aA5ec25a2cbA3a2",
       "codeHash": "0x525c754a46b79e05543a59bb61e8de3c9eee0d955a59352409cbe67ea1077528"
     }
   },
@@ -167,7 +167,8 @@
     "1666600000": "canonical",
     "1666700000": "canonical",
     "88153591557": "canonical",
-    "123420000220": "canonical"
+    "123420000220": "canonical",
+    "44474237230": "canonical"
   },
   "abi": [
     {
