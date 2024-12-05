@@ -218,6 +218,13 @@ const compatHandler = getCompatibilityFallbackHandlerDeployments();
 
 `safe-deployments` release cycle is once per month, except for urgent issues that require immediate attention.
 
+## Deriw Release 
+
+```shell
+yarn build
+git push
+```
+
 ## Notes
 
 - v1 supports only one address per network, while v2 allows multiple addresses per network. To maintain compatibility with v1, the address order in v2 is arranged so that the first address matches the one used in v1.
